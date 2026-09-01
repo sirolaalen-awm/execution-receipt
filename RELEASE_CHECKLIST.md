@@ -13,7 +13,7 @@ Status values: PASS / FAIL / BLOCKED / NOT TESTED.
 
 ## Public release
 
-- BLOCKED — Author selects an open-source license.
+- PASS — Author selected Apache License 2.0; `LICENSE` and `NOTICE` included.
 - BLOCKED — Public repository created and source pushed.
 - BLOCKED — Public HTTPS site deployed.
 - NOT TESTED — Public URL loads without sign-in.

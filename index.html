@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Build a document package with evidence of actual execution."><title>Execution Receipt</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="mark">ER</span> Execution Receipt</a><span class="prototype">LOCAL PROTOTYPE · 0.1</span></header>
+<main>
+<section class="heading"><div><p class="eyebrow">FROM A CLAIM TO AN ARTIFACT</p><h1>Done needs a receipt.</h1><p class="intro">Prepare documents. Build the package. Keep the evidence.</p></div><div class="connection"><span id="connection">Checking WebMCP…</span><small id="agent-note">No agent call verified in this session.</small></div></section>
+<div class="notice">Session-only workspace. Documents stay in this browser tab; refreshing clears the workspace. Download your package before leaving. Demo content is synthetic.</div>
+<div class="workspace"><section class="panel documents"><div class="section-head"><div><p class="eyebrow">01 / SOURCE</p><h2>Required documents</h2></div><span id="revision" class="mono"></span></div><div id="documents"></div><p class="small">Choose required slots and attach files up to 2 MiB each. Presence is checked; document truth and legal validity are not.</p><button class="secondary" id="sample">Add sample approval document</button></section>
+<section class="panel outcome"><p class="eyebrow">02 / EXECUTION</p><h2>Package readiness</h2><div class="meter" id="readiness"></div><p id="reason"></p><button class="primary" id="build">Build package <span>↗</span></button><p class="small">An incomplete attempt is recorded, with the missing document named.</p><div id="message" role="status" aria-live="polite"></div><div class="boundary"><strong>Proof has a boundary.</strong><p>A receipt confirms the ZIP bytes created here. It does not prove that someone saved, submitted or accepted the package.</p></div></section></div>
+<section class="panel receipts"><div class="section-head"><div><p class="eyebrow">03 / RESULT</p><h2>Execution receipts</h2></div><span class="small">Source changes preserve old packages and mark them stale.</span></div><div id="receipts"></div></section>
+<section class="panel history"><div class="section-head"><h2>Execution trail</h2><span class="small">Recorded application events · session only</span></div><ol id="events"></ol></section>
+<footer><span>Based on “False Execution Status in LLM-Guided Processes”.</span><span>4.IR-C · Research → working prototype</span></footer>
+</main><script type="module" src="app.mjs"></script></body></html>

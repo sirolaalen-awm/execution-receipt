@@ -54,15 +54,9 @@ Receipt means ZIP bytes were created in the current tab. It does not mean saved-
 
 The event actor labels indicate the invoked application handler, not authenticated identity. In-memory state and receipt JSON are not a tamper-proof ledger; local scripts or a compromised browser can falsify them. Requirements are editable in the manual UI. The tool interface deliberately does not expose a requirement-removal action, but this is not a security boundary against code with page access.
 
-## License
-
-Copyright 2026 Alen Širola. Licensed under the Apache License, Version 2.0. See `LICENSE` and `NOTICE`.
-
-The license covers the files distributed in this repository. It does not grant rights to the broader AWM method, unpublished development memory, or separate research works merely referenced by this project.
-
 ## Delivery status
 
-Local source and automated contract/unit tests only. Browser UI, real WebMCP agent invocation, public hosting, submission video, registration and competition submission remain separate validation/release steps. No contest acceptance or recognition is claimed.
+Local source and automated contract/unit tests only. Browser UI, real WebMCP agent invocation, public hosting, open-source license selection, submission video, registration and competition submission remain separate validation/release steps. No contest acceptance or recognition is claimed. No public license is granted by this private prototype; obtain the author's license choice before publishing a public repository.
 
 ## Suggested next Codex task
 
